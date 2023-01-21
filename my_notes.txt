@@ -1,0 +1,21 @@
+Step 1: first secret key: seaworthy
+Step 3: Learn about Git
+https://towardsdatascience.com/an-easy-beginners-guide-to-git-2d5a99682a4c
+
+Step 4: Git Quiz!
+Challenge 1 of 7 the secret key: OOZEdiveTRAPpine
+
+Challenge 2 of 7 the secret key: 6games-container.stats-card15
+
+Challenge 3 of 7 the secret key: 11seafoamGAMES_JSON
+
+Challenge 4 of 7 the secret key: 19187800268BRAIN
+
+Challenge 5 of 7 the secret key: 74FLANNELclick
+
+Challenge 6 of 7 the secret key: toLocaleString<div>1ivy
+
+Challenge 7 of 7 the secret key: zoohowCEDAR
+
+Submit:
+GIT: https://guides.codepath.org/android/Collaborating-on-Projects-with-Git
