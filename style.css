@@ -2,7 +2,10 @@
 
 body {
     font-family: 'Cabin';
-    background-color: #758190;
+    color: #432616;
+    background: rgb(238,174,202);
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(231,233,148,0.9051821412158614) 100%);
+    font-weight: bold;
 }
 
 #tentacles {
@@ -11,25 +14,41 @@ body {
 
 .header {
     display: flex;
-    background-color: lightblue;
+    background-color: hsl(20, 66%, 90%);
     padding: 1%;
     align-items: center;
-    margin-left: -10px;
+    justify-content: center;
+    gap: 5rem;
     margin-right: -10px;
     margin-top: -10px;
+    justify-content: center;
+    box-shadow: 0 0 30px hsl(21, 91%, 17%);;
+}
+.header:hover{
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s linear;
 }
 
 .stats-container {
     display: flex;
+    align-items: center;
 }
 
 .stats-card {
-    background-color: #a8b0bc;
+    background-color: hsl(20, 66%, 90%);
     border-radius: 7px;
     padding: 1%;
     margin: 1%;
     width: 100%;
     text-align: center;
+    box-shadow: 1px 1px 10px hsl(21, 91%, 17%);
+}
+
+.stats-card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px hsl(21, 77%, 34%);
+    transition: all 0.3s linear;
+    background-color: transparent;
 }
 
 #num-contributions, #total-raised, #num-games {
@@ -45,21 +64,24 @@ body {
 .game-img {
     width: 100%;
     border-radius: 5px;
-    box-shadow: 0 0 10px #FFFFFF;
+    box-shadow: 1px 1px 10px hsl(21, 91%, 17%);
 }
 
 .game-card {
-    background-color: #FFFFFF;
+    background-color: hsl(20, 56%, 85%);
     padding: 1%;
     margin: 1%;
     width: 300px;
     text-align: center;
     border-radius: 7px;
+    box-shadow: 1px 1px 5px hsl(21, 77%, 34%);
 }
 
 .game-card:hover {
     cursor: pointer;
-    box-shadow: 0 0 30px lightblue;
+    box-shadow: 0 0 30px hsl(21, 77%, 34%);
+    transition: all 0.3s linear;
+    background-color: transparent;
 }
 
 #button-container {
@@ -71,5 +93,30 @@ button {
     border: none;
     padding: 1%;
     margin: 1%;
+    margin-bottom: 2rem;
     border-radius: 7px;
+    background-color:hsl(21, 100%, 94%);
+    color: coffee;
+    font-weight: bold;
+    box-shadow: 1px 1px 10px hsl(21, 91%, 17%);
+}
+
+button:hover{
+    cursor: pointer;
+    box-shadow: 5px 5px 30px hsl(21, 77%, 34%);
+    background-color: transparent;
+    transition: all 0.3s linear;
+    background-color: transparent;
+}
+
+h2{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+#description-container {
+    text-align: center;
+}
+#p-game{
+    text-align: center;
 }
